@@ -1,8 +1,8 @@
 # esp-idf-ci
 
-Сборка проектов ESP-IDF.
+Building ESP-IDF projects.
 
-## Пример настройки CI/CD
+## Usage
 
 ```
 
@@ -20,7 +20,7 @@ jobs:
 
 ```
 
-## Доступные версии:
+## Available tags
 
 ```
 v4.4.3
