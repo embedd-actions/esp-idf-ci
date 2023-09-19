@@ -1,0 +1,14 @@
+name: 'ESP-IDF build'
+description: 'Building ESP-IDF projects'
+inputs:
+   IDF_TARGET:
+     description: 'Target device'
+     required: true
+     default: esp32
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+     - idf.py 
+     - build
+ 
