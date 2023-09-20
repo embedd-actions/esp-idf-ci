@@ -14,7 +14,7 @@ jobs:
       - uses: actions/checkout@v3
         
       - name: make   
-        uses: embedd-actions/esp-idf-ci@v4.4.3
+        uses: embedd-actions/esp-idf-ci@latest
         with: 
           IDF_TARGET: esp32
 
