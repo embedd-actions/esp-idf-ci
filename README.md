@@ -23,6 +23,5 @@ jobs:
 ## Available tags
 
 ```
-v4.4.3
 latest
 ```
