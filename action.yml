@@ -7,7 +7,7 @@ inputs:
      default: esp32
 runs:
   using: 'docker'
-  image: 'Dockerfile'
+  image: 'docker://espressif/idf:v4.4.3'
   args:
      - idf.py 
      - build
