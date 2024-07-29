@@ -4,7 +4,7 @@ Building ESP-IDF projects.
 
 ## Usage
 
-```
+```yml
 
 jobs:      
   build:
